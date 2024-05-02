@@ -1,0 +1,171 @@
+@import url(me.css);
+@import url(buy.css);
+@import url(carroussel.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+nav ul li{
+    padding-right: 40px;
+    color: rgb(179, 177, 177);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li a:hover{
+    opacity: 0.8;
+}
+
+.allnav{
+    display: flex;
+    flex-direction: row;
+}
+
+.allnav button{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 6vw;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.allnav img{
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 3vw;
+}
+
+.allnav img:hover{
+    cursor: pointer;
+}
+
+.active{
+    color: #e883c1;
+}
+    
+.allnav .pos button:hover{
+    transition: 0.5s;
+    background-color: #e883c1;
+    color: white;
+}
+
+
+header{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 6vw;
+}
+
+header div h1{
+    font-size: 4em;
+    font-weight: 600;
+    width: 57%;
+    padding-top: 20vh;
+}
+
+header div h1 span{
+    color: #e883c1
+}
+
+header div #typed-text{
+    font-weight: 500;
+    width: 50%;
+    padding-top: 10px;
+    color: rgb(84, 83, 83);
+}
+
+header img{
+    position: absolute;
+    width: auto;
+    height: 65vh;
+    padding-left: 50vw;
+    padding-top: 10vh;
+    border-radius: 100px;
+}
+
+footer{
+    padding-top: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+footer .reseaux{
+    list-style: none;
+}
+
+footer .reseaux li a img{
+    width: 1.5vw;
+    padding-left: 4vw;
+
+}
+
+footer .reseaux li{
+    padding-bottom: 5px;
+}   
+
+footer img{
+    width: 10%;
+    height: 10%;
+    padding-left: 4vw;
+}
+
+footer p{
+    padding-left: 4vw;
+    font-size: 0.8em;
+    font-weight: 500;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contentfooter{
+    list-style: none;
+    padding-left: 4vw;
+    opacity: 0.7;
+}
+
+footer .contentfooter li{
+    padding-bottom: 5px;
+}
+
+footer .contentfooter a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li h2{
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 4px;
+}

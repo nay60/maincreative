@@ -1,0 +1,45 @@
+.creation{
+  display: flex;
+  padding-left: 6vw;
+  padding-top: 50vh;
+  flex-direction: row;
+}
+
+.creation h1{
+  padding-bottom: 30px;
+  font-size: 4em;
+  font-weight: 600;
+  width: 70%;
+}
+
+.creation h1 span{
+  color: #e883c1;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10vw;
+  width : 30%;
+  align-items: center;
+  padding-top: 10vh;
+
+}
+
+.carousel img{
+  display: none;
+  width: 20vw;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+div .next{
+  padding-top: 20px;
+  box-shadow: none;
+  width: 5vw;
+  display: block;
+}
+
+.carousel .active{
+  display: block;
+}

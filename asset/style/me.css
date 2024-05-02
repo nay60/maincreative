@@ -1,0 +1,70 @@
+.titleme{
+    padding-top: 30px;
+    display: flex;
+    padding-left: 6vw;
+}
+
+.titleme h1{
+    font-size: 4em;
+    font-weight: 600;
+    width: 70%;
+    padding-top: 20vh;
+}
+
+.titleme h1 span{
+    color: #e883c1
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+} 
+
+.experiences .activeexp{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    visibility: visible;
+}
+.experiences div{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.experiences img{
+    width: 5vw;
+    padding-top: 220px;
+
+
+}
+
+.experiences{
+    position: relative;
+    padding-right: 10vw;
+    width : 30%;
+    padding-top: 12vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.experiences h2{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.experiences p{
+    font-size: 0.8em;
+    font-weight: 450;
+    padding-top: 7px;
+}
+
+#project{
+    padding-top: 40px;
+}
+
